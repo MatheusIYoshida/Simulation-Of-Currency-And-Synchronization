@@ -158,8 +158,6 @@ body{
 }
 
 .content-input-title{
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     margin: 10px 20px 0px 20px;
 }
@@ -167,6 +165,12 @@ body{
 .content-input-line{
     display: flex;
     margin-top: 20px;
+}
+
+.password-admin-line{
+    width: 88%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .admin-checkbox{
@@ -205,4 +209,10 @@ body{
     background-color: #429a35;
     color: #fff;
     cursor: pointer;
+}
+
+.tableEditLink{
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
 }

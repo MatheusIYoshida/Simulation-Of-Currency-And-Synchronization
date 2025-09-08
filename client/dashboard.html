@@ -51,83 +51,6 @@
                                 <th>AGE</th>
                                 <th>ACTIONS</th>
                             </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
-                            <tr>
-                                <td>Matheus</td>
-                                <td>matheuiyoshida@gmail.com</td>
-                                <td>Uraí</td>
-                                <td>19</td>
-                                <td>w</td>
-                            </tr>
                         </table>
                         <div class="fade hide"></div>
                         <div class="modal hide">
@@ -140,33 +63,39 @@
                             <div class="modal-body">
                                 <div class="content-input-title">
                                     <h3>Informations:</h3>
-                                    <div class="admin-checkbox">
-                                        <label>Admin:</label>
-                                        <input type="checkbox" name="Admin">
-                                    </div>
                                 </div>
                                 <div class="content-input-line">
                                     <div class="input-content">    
                                         <label>Name:</label>
-                                        <input id="" type="text" name="Name" />
+                                        <input id="name-input" type="text" name="Name" />
                                     </div>
                                     <div class="input-content">
                                         <label>City:</label>
-                                        <input id="" type="text" name="City" />
+                                        <input id="city-input" type="text" name="City" />
                                     </div>
                                 </div>
                                 <div class="content-input-line">
                                     <div class="input-content">
                                         <label>Email:</label>
-                                        <input id="" type="email" name="Email" />
+                                        <input id="email-input" type="email" name="Email" />
                                     </div>
                                     <div class="input-content">
                                         <label>Age:</label>
-                                        <input id="" type="number" name="Age" />                                    
+                                        <input id="age-input" type="number" name="Age" />                                    
+                                    </div>
+                                </div>
+                                <div class="content-input-line password-admin-line">
+                                    <div class="input-content">
+                                        <label>Password:</label>
+                                        <input id="password-input" type="password" name="Password" />
+                                    </div>
+                                    <div class="admin-checkbox">
+                                        <label>Admin:</label>
+                                        <input id="admin-input" type="checkbox" name="Admin">
                                     </div>
                                 </div>
                                 <div class="modal-button">
-                                    <button type="submit">Create Profile</button>
+                                    <button type="submit" onclick="createUser()">Create Profile</button>
                                 </div>
                             </div>
                         </div>
@@ -178,4 +107,5 @@
     <script src="src/script/dashboard.js"></script>
     <script src="src/script/modal.js"></script>
     <script src="src/script/tokenValid.js"></script>
+    <script src="src/script/create-user.js"></script>
 </html>
