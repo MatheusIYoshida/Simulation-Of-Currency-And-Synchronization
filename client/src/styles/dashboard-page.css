@@ -33,6 +33,7 @@ body{
     width: 180px;
     margin-top: 30px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .exit{
@@ -129,7 +130,7 @@ body{
 }
 
 .hide{
-    opacity: 1;
+    opacity: 0;
     pointer-events: none;
 }
 
@@ -156,9 +157,26 @@ body{
     align-items: center;
 }
 
+.content-input-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 20px 0px 20px;
+}
+
 .content-input-line{
     display: flex;
     margin-top: 20px;
+}
+
+.admin-checkbox{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.admin-checkbox label{
+    margin-right: 10px;
 }
 
 .input-content{
