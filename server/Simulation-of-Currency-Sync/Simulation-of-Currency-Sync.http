@@ -1,0 +1,6 @@
+@Simulation_of_Currency_Sync_HostAddress = http://localhost:5193
+
+GET {{Simulation_of_Currency_Sync_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
